@@ -52,13 +52,16 @@
             // 
             // comboBoxMode
             // 
+            this.comboBoxMode.BackColor = System.Drawing.Color.Black;
+            this.comboBoxMode.Font = new System.Drawing.Font("Cascadia Mono", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxMode.ForeColor = System.Drawing.Color.Lime;
             this.comboBoxMode.FormattingEnabled = true;
             this.comboBoxMode.Items.AddRange(new object[] {
             "ZENIT_POLAR",
             "NATZU_JOLIP"});
             this.comboBoxMode.Location = new System.Drawing.Point(186, 27);
             this.comboBoxMode.Name = "comboBoxMode";
-            this.comboBoxMode.Size = new System.Drawing.Size(318, 21);
+            this.comboBoxMode.Size = new System.Drawing.Size(318, 36);
             this.comboBoxMode.TabIndex = 1;
             // 
             // labelMode
@@ -85,6 +88,9 @@
             // 
             // richTextBoxInput
             // 
+            this.richTextBoxInput.BackColor = System.Drawing.Color.Black;
+            this.richTextBoxInput.Font = new System.Drawing.Font("Cascadia Mono", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBoxInput.ForeColor = System.Drawing.Color.Lime;
             this.richTextBoxInput.Location = new System.Drawing.Point(126, 71);
             this.richTextBoxInput.Name = "richTextBoxInput";
             this.richTextBoxInput.Size = new System.Drawing.Size(378, 162);
@@ -95,6 +101,7 @@
             // 
             this.richTextBoxOutput.BackColor = System.Drawing.Color.Black;
             this.richTextBoxOutput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.richTextBoxOutput.Font = new System.Drawing.Font("Cascadia Mono", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBoxOutput.ForeColor = System.Drawing.Color.Lime;
             this.richTextBoxOutput.Location = new System.Drawing.Point(739, 27);
             this.richTextBoxOutput.Name = "richTextBoxOutput";
